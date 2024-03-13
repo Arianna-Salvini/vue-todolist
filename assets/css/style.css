@@ -1,3 +1,56 @@
-body{
+body {
+    color: rgb(0, 11, 41);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input_task,
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background-color: azure;
+}
+
+.container {
+    border-radius: 2rem 2rem;
+    box-shadow: 1px 1px 5px rgba(0, 11, 41, 0.573);
+
+    & h1 {
+        text-align: center;
+        padding: 1rem;
+    }
+
+}
+
+.todo_box {
     background-color: aliceblue;
+    border: 3px solid azure;
+    margin: 0 2rem;
+}
+
+.input_task {
+    border-radius: 0 0 2rem 2rem;
+
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .input_box {
+        padding: 0.5rem;
+        border-radius: 8px 0 0 8px;
+        border-style: none;
+        border: 1px solid rgb(0, 11, 41);
+        ;
+        flex-grow: 1;
+    }
+
+    &>button {
+        padding: 0.5rem 0.7rem;
+        border-radius: 0 8px 8px 0;
+        border-style: none;
+        border: 1px solid rgb(0, 11, 41);
+        ;
+        aspect-ratio: 1;
+    }
+
 }
