@@ -5,6 +5,7 @@ const {createApp} = Vue
 createApp({
     data(){
      return {
+        newTask:'',
         tasks:[{
             text:'Fare colazione',
             done:false,
@@ -29,6 +30,13 @@ createApp({
         deleteTask(index){
             this.tasks.splice(index, 1)
         },
+
+        addTask(){
+            if(this.newTask.length > 2){
+                this.tasks.push({text:this.newTask, done:false})
+                this.newTask = ''
+            }
+        }
     }
 
 }).mount('#app')
