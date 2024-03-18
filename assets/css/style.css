@@ -26,10 +26,11 @@ body {
 
 
     & li {
-        list-style: none;
+        list-style: latin;
+        list-style-position: inside;
         background-color: aliceblue;
         border: 1px inset rgba(0, 11, 41, 0.3);
-        margin: 0.3rem 0;
+        margin: 0.3rem;
         padding: 0.7rem;
     }
 
