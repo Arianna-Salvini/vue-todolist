@@ -17,14 +17,11 @@ Predisporre un campo di input testuale e un pulsante "aggiungi":
 - che quindi viene aggiunto alla lista dei todo esistenti.
 
 
-
 ## Bonus 1
-Oltre al click sul pulsante, intercettare anche il tasto ENTER per aggiungere il todo alla lista
+Oltre al click sul pulsante
+- intercettare anche il tasto ENTER per aggiungere il todo alla lista
 
 ## Bonus 2
-Cliccando sul testo dell'item, invertire il valore della proprietà done del todo corrispondente (se done era uguale a false, impostare true e viceversa)
-:data: Vi ricordo che oggi pomeriggio ci sará un recap su Vue verso le 16 circa vi contatterano i vosti fantastici tutori per ulteriori dettagli piú tardi.
-Buon divertimento e confermate lettura come al solito :baby-yoda:
-:baby-yoda:
-22
+- Cliccando sul testo dell'item, invertire il valore della proprietà done del todo corrispondente (se done era uguale a false, impostare true e viceversa)
+
 
