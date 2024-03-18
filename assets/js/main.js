@@ -20,8 +20,11 @@ createApp({
     ]
      }
     },
-    methode(){
+    methods: {
 
+        doneToggle(i){
+            this.tasks[i].done = !this.tasks[i].done
+        },
     }
 
 }).mount('#app')

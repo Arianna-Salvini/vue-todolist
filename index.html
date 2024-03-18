@@ -15,7 +15,9 @@
         <div class="todo_box">
             <!-- todo list here here -->
             <ul>
-                <li v-for="task in tasks">{{task.text}}</li>
+                <li v-for="(task, index) in tasks" @click="doneToggle(index)">
+                    <span :class="{'done': task.done}">{{task.text}}</span>
+                </li>
             </ul>
         </div>
         <!-- /.todo_box -->
