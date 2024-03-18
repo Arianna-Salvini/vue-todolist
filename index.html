@@ -17,7 +17,7 @@
             <ul>
                 <li class="tasks_and_cross" v-for="(task, index) in tasks" >
                     <span class="tasks" :class="{'done': task.done}" @click="doneToggle(index)">{{task.text}}</span>
-                    <span class="delete" @click="deleteTask(index)"> &times;;</span>
+                    <span class="delete" @click="deleteTask(index)"> &times;</span>
                 </li>
             </ul>
         </div>
